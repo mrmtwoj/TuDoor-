@@ -20,4 +20,4 @@ This repository contains a Python script to simulate DNS spoofing and cache pois
 ### Example:
 To simulate DNS spoofing for the domain `example.com`, targeting the victim `192.168.1.100` with a fake IP of `1.2.3.4` and using DNS server `192.168.1.1`:
 ```bash
-python3 dns_spoof.py --d example.com --vip 192.168.1.100 --dns 192.168.1.1 --fip 1.2.3.4
+python3 exploit_dns.py --d example.com --vip 192.168.1.100 --dns 192.168.1.1 --fip 1.2.3.4
